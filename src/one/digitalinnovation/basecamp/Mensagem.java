@@ -9,6 +9,11 @@ public class Mensagem {
     public static void obterMensagem(int hora) {
 
         switch (hora) {
+            case 0:
+            case 1:
+            case 2:
+            case 3:
+            case 4:
             case 5:
             case 6:
             case 7:
@@ -32,11 +37,7 @@ public class Mensagem {
             case 21:
             case 22:
             case 23:
-            case 0:
-            case 1:
-            case 2:
-            case 3:
-            case 4:
+            
                 mensagemBoaNoite();
                 break;
             default:
